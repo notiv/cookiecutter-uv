@@ -1,6 +1,6 @@
 [project]
 name = "{{cookiecutter.project_name}}"
-version = "0.0.1"
+version = "0.1.0"
 description = "{{cookiecutter.project_description}}"
 authors = [{ name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" }]
 readme = "README.md"
@@ -66,7 +66,7 @@ show_error_codes = true
 testpaths = ["tests"]
 
 [tool.ruff]
-target-version = "py39"
+target-version = "py312"
 line-length = 120
 fix = true
 

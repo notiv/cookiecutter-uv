@@ -1,6 +1,6 @@
 {
-  "author": "Florian Maas",
-  "author_github_handle": "fpgmaas",
+  "author": "Viton Vitanis",
+  "author_github_handle": "notiv",
   "codecov": [
     "y",
     "n"
@@ -17,11 +17,7 @@
     "y",
     "n"
   ],
-  "email": "fpgmaas@gmail.com",
-  "include_github_actions": [
-    "y",
-    "n"
-  ],
+  "email": "viton@viton.io",
   "layout": [
     "flat",
     "src"
@@ -40,9 +36,5 @@
   ],
   "project_description": "This is a template repository for Python projects that use uv for their dependency management.",
   "project_name": "example-project",
-  "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
-  "publish_to_pypi": [
-    "y",
-    "n"
-  ]
+  "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}"
 }

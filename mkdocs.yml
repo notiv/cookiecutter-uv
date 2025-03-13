@@ -10,11 +10,9 @@ copyright: Maintained by <a href="https://fpgmaas.com">Florian</a>.
 nav:
   - Home: index.md
   - Features:
-      - CI/CD with Github Actions: features/cicd.md
       - Linting & code quality: features/linting.md
       - Makefile: features/makefile.md
       - Dependency management with uv: features/uv.md
-      - Publishing to PyPI: features/publishing.md
       - Testing with Pytest: features/pytest.md
       - Test coverage with codecov: features/codecov.md
       - Documentation with MkDocs: features/mkdocs.md
